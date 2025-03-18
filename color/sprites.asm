@@ -54,8 +54,12 @@ LoadOverworldSpritePalettes:
 	jr z, .gotPaletteList
 	;;;;;;;;;;;;;;;;;
 
-; If not, load the normal Object Pals
-	ld hl, MapSpritePalettes
+ ; If it is an outdoor map, load different pals for the cut trees and boulders
+  	ld hl, MapSpritePalettes
+   	and a ; cp 0, check for Overworld
+   	jr z, .gotPaletteList
+ ; If not, load the Indoor Object Pals
+   	ld hl, MapSpritePalettesIndoor
 .gotPaletteList
 	pop bc
 	ld a, b
