@@ -54,20 +54,20 @@ ItemPrices::
 	bcd3 600   ; FULL_HEAL
 	bcd3 1500  ; REVIVE
 	bcd3 4000  ; MAX_REVIVE
-	bcd3 700   ; GUARD_SPEC
+	bcd3 2500  ; GUARD_SPEC
 	bcd3 500   ; SUPER_REPEL
 	bcd3 700   ; MAX_REPEL
-	bcd3 650   ; DIRE_HIT
+	bcd3 3000  ; DIRE_HIT
 	bcd3 10    ; COIN
 	bcd3 200   ; FRESH_WATER
 	bcd3 300   ; SODA_POP
 	bcd3 350   ; LEMONADE
 	bcd3 0     ; S_S_TICKET
 	bcd3 0     ; GOLD_TEETH
-	bcd3 500   ; X_ATTACK
-	bcd3 550   ; X_DEFEND
-	bcd3 350   ; X_SPEED
-	bcd3 350   ; X_SPECIAL
+	bcd3 1000  ; X_ATTACK
+	bcd3 1000  ; X_DEFEND
+	bcd3 1500  ; X_SPEED
+	bcd3 2000  ; X_SPECIAL
 	bcd3 0     ; COIN_CASE
 	bcd3 0     ; OAKS_PARCEL
 	bcd3 0     ; ITEMFINDER
@@ -78,7 +78,7 @@ ItemPrices::
 	bcd3 0     ; OLD_ROD
 	bcd3 0     ; GOOD_ROD
 	bcd3 0     ; SUPER_ROD
-	bcd3 0     ; PP_UP
+	bcd3 9800  ; PP_UP
 	bcd3 0     ; ETHER
 	bcd3 0     ; MAX_ETHER
 	bcd3 0     ; ELIXER
