@@ -30,7 +30,7 @@ _ViridianMartCooltrainerMText::
 	line "all sold out."
 	done
 
-_ViridianOldRodHouseFishingGuruDoYouLikeToFishText::
+_ViridianMartFishingGuruDoYouLikeToFishText::
 	text "I'm the FISHING"
 	line "GURU!"
 
@@ -41,7 +41,7 @@ _ViridianOldRodHouseFishingGuruDoYouLikeToFishText::
 	line "fish?"
 	done
 
-_ViridianOldRodHouseFishingGuruTakeThisText::
+_ViridianMartFishingGuruTakeThisText::
 	text "Grand! I like"
 	line "your style!"
 
@@ -54,7 +54,7 @@ _ViridianOldRodHouseFishingGuruTakeThisText::
 	text "!@"
 	text_end
 
-_ViridianOldRodHouseFishingGuruFishingIsAWayOfLifeText::
+_ViridianMartFishingGuruFishingIsAWayOfLifeText::
 	text_start
 
 	para "Fishing is a way"
@@ -66,12 +66,12 @@ _ViridianOldRodHouseFishingGuruFishingIsAWayOfLifeText::
 	cont "one, young one!"
 	done
 
-_ViridianOldRodHouseFishingGuruThatsSoDisappointingText::
+_ViridianMartFishingGuruThatsSoDisappointingText::
 	text "Oh... That's so"
 	line "disappointing..."
 	done
 
-_ViridianOldRodHouseFishingGuruHowAreTheFishBitingText::
+_ViridianMartFishingGuruHowAreTheFishBitingText::
 	text "Hello there,"
 	line "<PLAYER>!"
 
@@ -79,7 +79,7 @@ _ViridianOldRodHouseFishingGuruHowAreTheFishBitingText::
 	line "biting?"
 	done
 
-_ViridianOldRodHouseFishingGuruNoRoomText::
+_ViridianMartFishingGuruNoRoomText::
 	text "Oh no!"
 
 	para "You have no room"
