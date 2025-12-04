@@ -1,27 +1,15 @@
 ViridianForestWildMons:
-	def_grass_wildmons 8 ; encounter rate
-IF (DEF(_RED) || DEF(_GREEN)) 
-	db  5, WEEDLE
-	db  5, CATERPIE
-	db  6, KAKUNA
-	db  6, METAPOD
+	def_grass_wildmons 25 ; encounter rate
 	db  4, CATERPIE
-	db  5, ODDISH
-	db  5, PIDGEY
-	db  9, PIDGEOTTO
-ENDC
-IF DEF(_BLUE)
-	db  5, CATERPIE
-	db  5, WEEDLE
-	db  6, METAPOD
-	db  6, KAKUNA
 	db  4, WEEDLE
+	db  7, PIDGEY
+	db  7, KAKUNA
 	db  5, ODDISH
-	db  5, PIDGEY
-	db  9, PIDGEOTTO
-ENDC
-	db  5, PIKACHU
-	db  5, PIKACHU
+	db  6, METAPOD
+	db  6, ODDISH
+	db  7, VENONAT
+	db 12, PIDGEOTTO
+	db  6, EXEGGCUTE
 	end_grass_wildmons
 
 	def_water_wildmons 0 ; encounter rate

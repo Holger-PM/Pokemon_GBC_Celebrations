@@ -12,7 +12,7 @@ Moves:
 ; Characteristics of each move.
 	table_width MOVE_LENGTH, Moves
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
-	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,     95, 25
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,      95, 25
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  20, NORMAL,       100, 35
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  25, NORMAL,       100, 25
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,        85, 20
@@ -70,7 +70,7 @@ Moves:
 	move SURF,         NO_ADDITIONAL_EFFECT,        95, WATER,        100, 15
 	move ICE_BEAM,     FREEZE_SIDE_EFFECT,          95, ICE,          100, 15
 	move BLIZZARD,     FREEZE_SIDE_EFFECT,         120, ICE,           85,  5
-	move PSYBEAM,      CONFUSION_SIDE_EFFECT,       65, PSYCHIC_TYPE, 100, 20
+	move PSYBEAM,      CONFUSION_SIDE_EFFECT,       60, PSYCHIC_TYPE, 100, 20
 	move BUBBLEBEAM,   SPEED_DOWN_SIDE_EFFECT,      65, WATER,        100, 20
 	move AURORA_BEAM,  ATTACK_DOWN_SIDE_EFFECT,     65, ICE,          100, 20
 	move HYPER_BEAM,   HYPER_BEAM_EFFECT,          150, NORMAL,        90,  5
@@ -103,8 +103,8 @@ Moves:
 	move FISSURE,      OHKO_EFFECT,                  1, GROUND,        30,  5
 	move DIG,          CHARGE_EFFECT,               70, GROUND,       100, 20
 	move TOXIC,        POISON_EFFECT,                0, POISON,        85, 10
-	move CONFUSION,    CONFUSION_SIDE_EFFECT,       50, PSYCHIC_TYPE, 100, 25
-	move PSYCHIC_M,    SPECIAL_DOWN_SIDE_EFFECT,    90, PSYCHIC_TYPE, 100, 15
+	move CONFUSION,    CONFUSION_SIDE_EFFECT,       45, PSYCHIC_TYPE, 100, 25
+	move PSYCHIC_M,    SPECIAL_DOWN_SIDE_EFFECT,    85, PSYCHIC_TYPE, 100, 15
 	move HYPNOSIS,     SLEEP_EFFECT,                 0, PSYCHIC_TYPE,  60, 20
 	move MEDITATE,     ATTACK_UP1_EFFECT,            0, BIRD,   	  100, 40
 	move AGILITY,      SPEED_UP2_EFFECT,             0, BIRD,         100, 30
@@ -122,7 +122,7 @@ Moves:
 	move CONFUSE_RAY,  CONFUSION_EFFECT,             0, GHOST,        100, 10
 	move WITHDRAW,     DEFENSE_UP1_EFFECT,           0, BIRD,         100, 40
 	move DEFENSE_CURL, DEFENSE_UP1_EFFECT,           0, BIRD,         100, 40
-	move BARRIER,      DEFENSE_UP2_EFFECT,           0, BIRD,	  100, 30
+	move BARRIER,      DEFENSE_UP2_EFFECT,           0, BIRD,	        100, 30
 	move LIGHT_SCREEN, LIGHT_SCREEN_EFFECT,          0, BIRD,         100, 30
 	move HAZE,         HAZE_EFFECT,                  0, BIRD,         100, 30
 	move REFLECT,      REFLECT_EFFECT,               0, BIRD,         100, 20
@@ -162,7 +162,7 @@ Moves:
 	move PSYWAVE,      SPECIAL_DAMAGE_EFFECT,        1, PSYCHIC_TYPE,  95, 15
 	move SPLASH,       SPLASH_EFFECT,                0, BIRD,         100, 40
 	move ACID_ARMOR,   DEFENSE_UP2_EFFECT,           0, BIRD,         100, 40
-	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,       110, WATER,        100, 10
+	move CRABHAMMER,   NO_ADDITIONAL_EFFECT,       120, WATER,        100, 10
 	move EXPLOSION,    EXPLODE_EFFECT,             250, NORMAL,       100,  5
 	move FURY_SWIPES,  TWO_TO_FIVE_ATTACKS_EFFECT,  20, NORMAL,       100, 20
 	move BONEMERANG,   ATTACK_TWICE_EFFECT,         50, GROUND,        90, 20

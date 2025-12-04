@@ -5,15 +5,10 @@ CeruleanCave1FWildMons:
 	db 62, ELECTRODE
 	db 61, LICKITUNG
 	db 65, CHANSEY
-IF (DEF(_RED) || DEF(_GREEN)) 
 	db 60, DITTO
-ENDC
-IF DEF(_BLUE)
-	db 60, DITTO
-ENDC
 	db 64, VILEPLUME
 	db 63, VICTREEBEL
-	db 64, MACHAMP
+	db 64, RAICHU
 	db 65, RAICHU
 	end_grass_wildmons
 

@@ -3,14 +3,14 @@ Route20WildMons:
 	end_grass_wildmons
 
 	def_water_wildmons 5 ; encounter rate
+	db 20, TENTACOOL
 	db 10, TENTACOOL
+	db 15, TENTACOOL
+	db  5, TENTACOOL
+	db 15, TENTACOOL
 	db 20, TENTACOOL
 	db 25, TENTACOOL
-	db 30, POLIWAG
-	db 30, HORSEA
-	db 30, GOLDEEN
-	db 30, STARYU
-	db 30, SLOWPOKE
+	db 30, TENTACRUEL
 	db 35, TENTACRUEL
 	db 40, TENTACRUEL
 	end_water_wildmons

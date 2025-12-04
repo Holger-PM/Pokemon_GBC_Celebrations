@@ -1,9 +1,9 @@
 ItemPrices::
 	table_width 3, ItemPrices
 	bcd3 10000 ; MASTER_BALL
-	bcd3 1200  ; ULTRA_BALL
-	bcd3 600   ; GREAT_BALL
-	bcd3 200   ; POKE_BALL
+	bcd3 1500  ; ULTRA_BALL
+	bcd3 750   ; GREAT_BALL
+	bcd3 250   ; POKE_BALL
 	bcd3 0     ; TOWN_MAP
 	bcd3 0     ; BICYCLE
 	bcd3 0     ; SURFBOARD
@@ -45,7 +45,7 @@ ItemPrices::
 	bcd3 0     ; SECRET_KEY
 	bcd3 0     ; CHEAT_CANDY
 	bcd3 0     ; BIKE_VOUCHER
-	bcd3 950   ; X_ACCURACY
+	bcd3 3000  ; X_ACCURACY
 	bcd3 2100  ; LEAF_STONE
 	bcd3 0     ; CARD_KEY
 	bcd3 10000 ; NUGGET
