@@ -66,7 +66,7 @@ ViridianMart_TextPointers:
 	dw ViridianMartClerkSayHiToOakText
 	dw ViridianMartYoungsterText
 	dw ViridianMartCooltrainerMText
-	dw ViridianCityFishingGuruText
+	dw ViridianMartFishingGuruText
 	const_def 5
 	dw_const ViridianMartClerkYouCameFromPalletTownText, TEXT_VIRIDIANMART_CLERK_YOU_CAME_FROM_PALLET_TOWN
 	dw_const ViridianMartClerkParcelQuestText,           TEXT_VIRIDIANMART_CLERK_PARCEL_QUEST
@@ -77,7 +77,7 @@ ViridianMart_TextPointers2:
 	dw_const ViridianMartClerkText,        TEXT_VIRIDIANMART_CLERK
 	dw_const ViridianMartYoungsterText,    TEXT_VIRIDIANMART_YOUNGSTER
 	dw_const ViridianMartCooltrainerMText, TEXT_VIRIDIANMART_COOLTRAINER_M
-	dw_const ViridianCityFishingGuruText,  TEXT_VIRIDIANCITY_FISHING_GURU
+	dw_const ViridianMartFishingGuruText,  TEXT_VIRIDIANMART_FISHING_GURU
 	
 ViridianMartClerkSayHiToOakText:
 	text_far _ViridianMartClerkSayHiToOakText
@@ -103,7 +103,7 @@ ViridianMartCooltrainerMText:
 ViridianMartClerkText::
 	script_mart POKE_BALL, POTION, ANTIDOTE, PARLYZ_HEAL
 
-ViridianCityFishingGuruText:
+ViridianMartFishingGuruText:
 	text_asm
 	ld a, [wd728]
 	bit 3, a ; got old rod?
@@ -134,23 +134,23 @@ ViridianCityFishingGuruText:
 	rst TextScriptEnd
 
 .DoYouLikeToFishText:
-	text_far _ViridianOldRodHouseFishingGuruDoYouLikeToFishText
+	text_far _ViridianMartFishingGuruDoYouLikeToFishText
 	text_end
 
 .TakeThisText:
-	text_far _ViridianOldRodHouseFishingGuruTakeThisText
+	text_far _ViridianMartFishingGuruTakeThisText
 	sound_get_item_1
-	text_far _ViridianOldRodHouseFishingGuruFishingIsAWayOfLifeText
+	text_far _ViridianMartFishingGuruFishingIsAWayOfLifeText
 	text_end
 
 .ThatsSoDisappointingText:
-	text_far _ViridianOldRodHouseFishingGuruThatsSoDisappointingText
+	text_far _ViridianMartFishingGuruThatsSoDisappointingText
 	text_end
 
 .HowAreTheFishBitingText:
-	text_far _ViridianOldRodHouseFishingGuruHowAreTheFishBitingText
+	text_far _ViridianMartFishingGuruHowAreTheFishBitingText
 	text_end
 
 .NoRoomText:
-	text_far _ViridianOldRodHouseFishingGuruNoRoomText
+	text_far _ViridianMartFishingGuruNoRoomText
 	text_end
