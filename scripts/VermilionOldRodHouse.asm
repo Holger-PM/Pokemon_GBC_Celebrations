@@ -10,19 +10,19 @@ VermilionOldRodHouse_TextPointers:
 VermilionOldRodHouseFishingGuruText:
 	text_asm
 	ld a, [wd728]
-	bit 3, a ; got old rod?
-	jr nz, .got_old_rod
+	bit 4, a ; got good rod?
+	jr nz, .got_item
 	ld hl, .DoYouLikeToFishText
 	rst _PrintText
 	call YesNoChoice
 	ld a, [wCurrentMenuItem]
 	and a
 	jr nz, .refused
-	lb bc, OLD_ROD, 1
+	lb bc, GOOD_ROD, 1
 	call GiveItem
 	jr nc, .bag_full
 	ld hl, wd728
-	set 3, [hl] ; got old rod
+	set 4, [hl] ; got good rod
 	ld hl, .TakeThisText
 	jr .print_text
 .bag_full
@@ -31,7 +31,7 @@ VermilionOldRodHouseFishingGuruText:
 .refused
 	ld hl, .ThatsSoDisappointingText
 	jr .print_text
-.got_old_rod
+.got_item
 	ld hl, .HowAreTheFishBitingText
 .print_text
 	rst _PrintText
