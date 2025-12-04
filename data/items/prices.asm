@@ -17,9 +17,9 @@ ItemPrices::
 	bcd3 200   ; PARLYZ_HEAL
 	bcd3 3000  ; FULL_RESTORE
 	bcd3 2500  ; MAX_POTION
-	bcd3 1500  ; HYPER_POTION
-	bcd3 700   ; SUPER_POTION
-	bcd3 300   ; POTION
+	bcd3 1200  ; HYPER_POTION
+	bcd3 550   ; SUPER_POTION
+	bcd3 200   ; POTION
 	bcd3 0     ; BOULDERBADGE
 	bcd3 0     ; CASCADEBADGE
 	bcd3 0     ; THUNDERBADGE
@@ -40,8 +40,8 @@ ItemPrices::
 	bcd3 9800  ; CARBOS
 	bcd3 9800  ; CALCIUM
 	bcd3 4800  ; RARE_CANDY
-	bcd3 3000  ; DOME_FOSSIL
-	bcd3 3000  ; HELIX_FOSSIL
+	bcd3 0     ; DOME_FOSSIL
+	bcd3 0     ; HELIX_FOSSIL
 	bcd3 0     ; SECRET_KEY
 	bcd3 0     ; CHEAT_CANDY
 	bcd3 0     ; BIKE_VOUCHER
