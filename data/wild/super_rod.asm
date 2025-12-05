@@ -52,7 +52,7 @@ SuperRodData::
 	db 26, KRABBY
 
 .Group3:
-	db 4
+	db 3
 	db 34, SEAKING
 	db 28, SLOWPOKE
 	db 30, POLIWHIRL
