@@ -11,7 +11,7 @@ GoodRodData:
 	dbw ROUTE_4,             .Group2
 	dbw ROUTE_6,             .Group3
 	dbw ROUTE_10,            .Group3
-	dbw ROUTE_11,            .Group2
+	dbw ROUTE_11,            .Group7
 	dbw ROUTE_12,            .Group2
 	dbw ROUTE_13,            .Group2
 	dbw ROUTE_17,            .Group2
