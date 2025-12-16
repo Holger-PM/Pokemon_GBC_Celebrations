@@ -29,6 +29,15 @@ MapPaletteSets:
 	assert_table_length NUM_TILESETS
 
 OverworldPalSet:
+	db OUTDOOR_GRAY
+	db OUTDOOR_RED
+	db OUTDOOR_GREEN
+	db OUTDOOR_BLUE
+	db OUTDOOR_YELLOW
+	db OUTDOOR_BROWN
+	db OUTDOOR_ROOF
+	db CRYS_TEXTBOX
+	
 PlateauPalSet:
 	db OUTDOOR_GRAY
 	db OUTDOOR_RED

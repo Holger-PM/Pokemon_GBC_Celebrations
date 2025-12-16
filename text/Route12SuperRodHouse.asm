@@ -1,6 +1,6 @@
 _Route12SuperRodHouseFishingGuruDoYouLikeToFishText::
 	text "I'm the FISHING"
-	line "GURU's brother!"
+	line "GURU's older!"
 
 	para "I simply Looove"
 	line "fishing!"

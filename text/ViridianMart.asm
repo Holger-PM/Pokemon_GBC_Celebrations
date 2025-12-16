@@ -32,7 +32,7 @@ _ViridianMartCooltrainerMText::
 
 _ViridianMartFishingGuruDoYouLikeToFishText::
 	text "I'm the FISHING"
-	line "GURU!"
+	line "GURU's rookie!"
 
 	para "I simply Looove"
 	line "fishing!"
