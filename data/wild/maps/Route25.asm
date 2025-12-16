@@ -9,8 +9,19 @@ Route25WildMons:
 	db 13, VENONAT
 	db 16, VENONAT
 	db 17, PIDGEY
-	db 17, PIDGEOTTO
+	db 18, PIDGEOTTO
+  db 15, EEVEE
 	end_grass_wildmons
 
-	def_water_wildmons 0 ; encounter rate
+	def_water_wildmons 10 ; encounter rate
+	db 32, GOLDEEN
+	db 30, GOLDEEN
+	db 28, POLIWAG
+	db 30, GOLDEEN
+	db 30, POLIWAG
+	db 30, POLIWHIRL
+	db 28, POLIWAG
+	db 32, POLIWHIRL
+	db 38, SEAKING
+	db 32, STARYU
 	end_water_wildmons

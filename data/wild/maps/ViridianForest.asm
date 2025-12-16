@@ -1,5 +1,5 @@
 ViridianForestWildMons:
-	def_grass_wildmons 25 ; encounter rate
+	def_grass_wildmons 20 ; encounter rate
 	db  4, CATERPIE
 	db  4, WEEDLE
 	db  7, PIDGEY
@@ -8,7 +8,8 @@ ViridianForestWildMons:
 	db  6, METAPOD
 	db  6, ODDISH
 	db  7, VENONAT
-	db 12, PIDGEOTTO
+  db  7, PIKACHU
+	db 10, PIDGEOTTO
 	db  6, EXEGGCUTE
 	end_grass_wildmons
 
