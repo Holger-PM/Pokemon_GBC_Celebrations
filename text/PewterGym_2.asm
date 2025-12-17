@@ -69,12 +69,16 @@ _PewterGymBrockBoulderBadgeInfoText::
 	para "That's an official"
 	line "#MON LEAGUE"
 	cont "BADGE!"
-
+IF DEF(_HARD)
+	para "It's your first"
+	line "step on the road"
+	cont "to the League!"
+ELSE
 	para "Its bearer's"
 	line "#MON become"
 	cont "more powerful!"
-
-	para "The technique"
+ENDC
+	para "Also, the move"
 	line "FLASH can now be"
 	cont "used any time!"
 	prompt

@@ -11,6 +11,12 @@ _VermilionGymLTSurgePostBattleAdviceText::
 	done
 
 _VermilionGymLTSurgeThunderBadgeInfoText::
+IF DEF(_HARD)
+	text "The ThunderBadge"
+	line "lets your #mon"
+	cont "use Fly any time,"
+	cont "kid!"
+ELSE
 	text "The THUNDERBADGE"
 	line "cranks up your"
 	cont "#MON's DEFENSE!"
@@ -18,7 +24,7 @@ _VermilionGymLTSurgeThunderBadgeInfoText::
 	para "It also lets your"
 	line "#MON FLY any"
 	cont "time, kid!"
-
+ENDC
 	para "You're special,"
 	line "kid! Take this!"
 	done

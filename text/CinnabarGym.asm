@@ -63,11 +63,17 @@ _CinnabarGymRematchPostBattleText::
 _CinnabarGymBlaineVolcanoBadgeInfoText::
 	text "Hah!"
 
+IF DEF(_HARD)
+	text "The VolcanoBadge"
+	line "puts you another"
+	cont "step closer to"
+	cont "Victory Road!"
+ELSE
 	para "The VOLCANOBADGE"
 	line "heightens the"
 	cont "SPECIAL abilities"
 	cont "of your #MON!"
-
+ENDC
 	para "Here, you can"
 	line "have this too!"
 	done

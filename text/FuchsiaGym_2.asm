@@ -10,6 +10,13 @@ _FuchsiaGymKogaPostBattleAdviceText::
 	done
 
 _FuchsiaGymKogaSoulBadgeInfoText::
+IF DEF(_HARD)
+	text "Now that you have"
+	line "the SoulBadge,"
+	cont "it also lets you"
+	cont "SURF outside of"
+	cont "battle!"
+ELSE
 	text "Now that you have"
 	line "the SOULBADGE,"
 	cont "the SPEED of"
@@ -19,7 +26,7 @@ _FuchsiaGymKogaSoulBadgeInfoText::
 	para "It also lets you"
 	line "SURF outside of"
 	cont "battle!"
-
+ENDC
 	para "Ah! Take this"
 	line "too!"
 	done
