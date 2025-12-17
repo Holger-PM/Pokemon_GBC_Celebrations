@@ -7,8 +7,7 @@ ViridianForestWildMons:
 	db  5, ODDISH
 	db  6, METAPOD
 	db  6, ODDISH
-	db  7, VENONAT
-  db  7, PIKACHU
+    db  7, PIKACHU
 	db 10, PIDGEOTTO
 	db  6, EXEGGCUTE
 	end_grass_wildmons

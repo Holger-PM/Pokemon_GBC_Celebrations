@@ -443,7 +443,7 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_RANDOM
 
 	; 0x09: SPRITE_BIRD
-	db SPR_PAL_ORANGE
+	db SPR_PAL_BROWN
 
 	; 0x0a: SPRITE_FAT_BALD_GUY
 	db SPR_PAL_RANDOM
@@ -491,7 +491,7 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_BROWN
 
 	; 0x19: SPRITE_MEDIUM
-	db SPR_PAL_RANDOM
+	db SPR_PAL_BL
 
 	; 0x1a: SPRITE_WAITER
 	db SPR_PAL_RANDOM
@@ -506,13 +506,13 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_RANDOM
 
 	; 0x1e: SPRITE_LANCE
-	db SPR_PAL_ORANGE
+	db SPR_PAL_RED
 
 	; 0x1f: SPRITE_OAK_SCIENTIST_AIDE
-	db SPR_PAL_BROWN
+	db SPR_PAL_BLUE
 
 	; 0x20: SPRITE_OAK_AIDE
-	db SPR_PAL_BROWN
+	db SPR_PAL_BLUE
 
 	; 0x21: SPRITE_ROCKER ($20)
 	db SPR_PAL_RANDOM
@@ -524,22 +524,22 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_RANDOM
 
 	; 0x24: SPRITE_GYM_HELPER
-	db SPR_PAL_RANDOM
+	db SPR_PAL_BLUE
 
 	; 0x25: SPRITE_OLD_PERSON
 	db SPR_PAL_RANDOM
 
 	; 0x26: SPRITE_MART_GUY
-	db SPR_PAL_RANDOM
+	db SPR_PAL_GREEN
 
 	; 0x27: SPRITE_FISHER
 	db SPR_PAL_RANDOM
 
 	; 0x28: SPRITE_OLD_MEDIUM_WOMAN
-	db SPR_PAL_RANDOM
+	db SPR_PAL_BROWN
 
 	; 0x29: SPRITE_NURSE
-	db SPR_PAL_ORANGE
+	db SPR_PAL_RED
 
 	; 0x2a: SPRITE_CABLE_CLUB_WOMAN
 	db SPR_PAL_GREEN
@@ -548,19 +548,19 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_PURPLE
 
 	; 0x2c: SPRITE_LAPRAS_GIVER
-	db SPR_PAL_RANDOM
+	db SPR_PAL_BROWN
 
 	; 0x2d: SPRITE_WARDEN
-	db SPR_PAL_RANDOM
+	db SPR_PAL_GREEN
 
 	; 0x2e: SPRITE_SS_CAPTAIN
-	db SPR_PAL_RANDOM
+	db SPR_PAL_PURPLE
 
 	; 0x2f: SPRITE_FISHER2
-	db SPR_PAL_RANDOM
+	db SPR_PAL_GREEN
 
 	; 0x30: SPRITE_KOGA
-	db SPR_PAL_BLUE
+	db SPR_PAL_PURPLE
 
 	; 0x31: SPRITE_GUARD ($30)
 	db SPR_PAL_BLUE
@@ -569,7 +569,7 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_RANDOM
 
 	; 0x33: SPRITE_MOM
-	db SPR_PAL_ORANGE
+	db SPR_PAL_RED
 
 	; 0x34: SPRITE_BALDING_GUY
 	db SPR_PAL_RANDOM
@@ -584,19 +584,19 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_RANDOM
 
 	; 0x38: SPRITE_CLEFAIRY
-	db SPR_PAL_ORANGE
+	db SPR_PAL_RED
 
 	; 0x39: SPRITE_AGATHA
-	db SPR_PAL_BLUE
+	db SPR_PAL_BROWN
 
 	; 0x3a: SPRITE_BRUNO
 	db SPR_PAL_BROWN
 
 	; 0x3b: SPRITE_LORELEI
-	db SPR_PAL_ORANGE
+	db SPR_PAL_RED
 
 	; 0x3c: SPRITE_SEEL
-	db SPR_PAL_BLUE
+	db SPR_PAL_RED
 
 ; Start of custom sprites
 
@@ -606,16 +606,16 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_BROWN
 
        ; SPRITE_MISTY
-	db SPR_PAL_ORANGE
+	db SPR_PAL_RED
 
        ; SPRITE_SURGE
-	db SPR_PAL_BROWN
+	db SPR_PAL_GREEN
 
        ; SPRITE_ERIKA
 	db SPR_PAL_GREEN
 
        ; SPRITE_SABRINA
-	db SPR_PAL_PURPLE
+	db SPR_PAL_RED
 
        ; SPRITE_BLAINE
 	db SPR_PAL_BROWN
@@ -623,7 +623,7 @@ SpritePaletteAssignments: ; Characters on the overworld
 ; Random
 
 	; SPRITE_BILL
-	db SPR_PAL_ORANGE
+	db SPR_PAL_RED
 
 	; SPRITE_OFFICER_JENNY
 	db SPR_PAL_BLUE
@@ -632,7 +632,7 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_PURPLE
 
 	; SPRITE_JESSIE
-	db SPR_PAL_ORANGE
+	db SPR_PAL_RED
 
 	; SPRITE_JAMES
 	db SPR_PAL_BLUE
@@ -646,10 +646,10 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_GREEN
 
 	; SPRITE_CHANSEY
-	db SPR_PAL_PURPLE
+	db SPR_PAL_RED
 
 	; SPRITE_CLEFAIRY
-	db SPR_PAL_PURPLE
+	db SPR_PAL_RED
 
 	; SPRITE_CUBONE
 	db SPR_PAL_BROWN
@@ -667,13 +667,13 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_PURPLE
 
 	; SPRITE MOLTRES
-	db SPR_PAL_ORANGE
+	db SPR_PAL_RED
 
 	; SPRITE_NIDORINO
-	db SPR_PAL_BLUE
+	db SPR_PAL_PURPLE
 
 	; SPRITE_OMANYTE
-	db SPR_PAL_BLUE
+	db SPR_PAL_BROWN
 
 	; SPRITE_PIDGEOT
 	db SPR_PAL_BROWN
@@ -706,7 +706,7 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_BROWN
 
 	; SPRITE_JIGGLYPUFF
-	db SPR_PAL_ORANGE
+	db SPR_PAL_RED
 
 	; SPRITE_KABUTO
 	db SPR_PAL_BROWN
@@ -737,10 +737,10 @@ SpritePaletteAssignments: ; Characters on the overworld
 
 
         ; 0x3d: SPRITE_BALL
-	db SPR_PAL_ORANGE
+	db SPR_PAL_RED
 
 	; 0x3e: SPRITE_OMANYTE
-	db SPR_PAL_ORANGE
+	db SPR_PAL_BROWN
 
 	; 0x3f: SPRITE_BOULDER
 	db SPR_PAL_ROCK
@@ -749,19 +749,19 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_BROWN
 
 	; 0x41: SPRITE_BOOK_MAP_DEX
-	db SPR_PAL_ORANGE
+	db SPR_PAL_BROWN
 
 	; 0x42: SPRITE_CLIPBOARD
 	db SPR_PAL_BROWN
 
 	; 0x43: SPRITE_SNORLAX
-	db SPR_PAL_ORANGE
+	db SPR_PAL_BLUE
 
 	; 0x44: SPRITE_OLD_AMBER_COPY
-	db SPR_PAL_ROCK
+	db SPR_PAL_RED
 
 	; 0x45: SPRITE_OLD_AMBER
-	db SPR_PAL_ROCK
+	db SPR_PAL_RED
 
 	; 0x46: SPRITE_LYING_OLD_MAN_UNUSED_1
 	db SPR_PAL_BROWN
@@ -773,13 +773,13 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_BROWN
 
 	; 0x49: SPRITE_POKEDEX (OAKS LAB)
-	db SPR_PAL_ORANGE
+	db SPR_PAL_RED
 
 	; 0X50: SPRITE_BALL (POKEBALLS)
-	db SPR_PAL_ORANGE
+	db SPR_PAL_RED
 
 	; 0X50: SPRITE_WIGGLYTUFF
-	db SPR_PAL_PURPLE
+	db SPR_PAL_RED
 
 	assert_table_length NUM_SPRITES
 
