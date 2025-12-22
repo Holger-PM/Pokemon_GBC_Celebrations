@@ -66,8 +66,7 @@ ViridianMart_TextPointers:
 	dw ViridianMartClerkSayHiToOakText
 	dw ViridianMartYoungsterText
 	dw ViridianMartCooltrainerMText
-	dw ViridianMartFishingGuruText
-	const_def 5
+	const_def 4
 	dw_const ViridianMartClerkYouCameFromPalletTownText, TEXT_VIRIDIANMART_CLERK_YOU_CAME_FROM_PALLET_TOWN
 	dw_const ViridianMartClerkParcelQuestText,           TEXT_VIRIDIANMART_CLERK_PARCEL_QUEST
 
@@ -77,7 +76,6 @@ ViridianMart_TextPointers2:
 	dw_const ViridianMartClerkText,        TEXT_VIRIDIANMART_CLERK
 	dw_const ViridianMartYoungsterText,    TEXT_VIRIDIANMART_YOUNGSTER
 	dw_const ViridianMartCooltrainerMText, TEXT_VIRIDIANMART_COOLTRAINER_M
-	dw_const ViridianMartFishingGuruText,  TEXT_VIRIDIANMART_FISHING_GURU
 	
 ViridianMartClerkSayHiToOakText:
 	text_far _ViridianMartClerkSayHiToOakText
@@ -102,55 +100,3 @@ ViridianMartCooltrainerMText:
 
 ViridianMartClerkText::
 	script_mart POKE_BALL, POTION, ANTIDOTE, PARLYZ_HEAL
-
-ViridianMartFishingGuruText:
-	text_asm
-	ld a, [wd728]
-	bit 3, a ; got old rod?
-	jr nz, .got_old_rod
-	ld hl, .DoYouLikeToFishText
-	rst _PrintText
-	call YesNoChoice
-	ld a, [wCurrentMenuItem]
-	and a
-	jr nz, .refused
-	lb bc, OLD_ROD, 1
-	call GiveItem
-	jr nc, .bag_full
-	ld hl, wd728
-	set 3, [hl] ; got old rod
-	ld hl, .TakeThisText
-	jr .print_text
-.bag_full
-	ld hl, .NoRoomText
-	jr .print_text
-.refused
-	ld hl, .ThatsSoDisappointingText
-	jr .print_text
-.got_old_rod
-	ld hl, .HowAreTheFishBitingText
-.print_text
-	rst _PrintText
-	rst TextScriptEnd
-
-.DoYouLikeToFishText:
-	text_far _ViridianMartFishingGuruDoYouLikeToFishText
-	text_end
-
-.TakeThisText:
-	text_far _ViridianMartFishingGuruTakeThisText
-	sound_get_item_1
-	text_far _ViridianMartFishingGuruFishingIsAWayOfLifeText
-	text_end
-
-.ThatsSoDisappointingText:
-	text_far _ViridianMartFishingGuruThatsSoDisappointingText
-	text_end
-
-.HowAreTheFishBitingText:
-	text_far _ViridianMartFishingGuruHowAreTheFishBitingText
-	text_end
-
-.NoRoomText:
-	text_far _ViridianMartFishingGuruNoRoomText
-	text_end
