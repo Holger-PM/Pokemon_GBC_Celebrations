@@ -1,0 +1,13 @@
+/usr/local/share/man/man1/rgbasm.1
+/usr/local/share/man/man1/rgbfix.1
+/usr/local/share/man/man1/rgbgfx.1
+/usr/local/share/man/man1/rgblink.1
+/usr/local/share/man/man5/rgbasm.5
+/usr/local/share/man/man5/rgblink.5
+/usr/local/share/man/man5/rgbds.5
+/usr/local/share/man/man7/gbz80.7
+/usr/local/share/man/man7/rgbds.7
+/usr/local/bin/rgbasm
+/usr/local/bin/rgbfix
+/usr/local/bin/rgbgfx
+/usr/local/bin/rgblink
