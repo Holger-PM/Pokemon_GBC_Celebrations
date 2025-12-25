@@ -443,7 +443,7 @@ SpritePaletteAssignments: ; Characters on the overworld
 	db SPR_PAL_RANDOM
 
 	; 0x09: SPRITE_BIRD
-	db SPR_PAL_ORANGE
+	db SPR_PAL_BROWN
 
 	; 0x0a: SPRITE_FAT_BALD_GUY
 	db SPR_PAL_RANDOM

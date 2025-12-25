@@ -25,7 +25,7 @@ IF DEF(_DEBUG)
 ELSE
 	db MEW, 20
 ENDC
-	db JOLTEON, 100
+	db GENGAR, 100
 	db DUGTRIO, 100
 	db ARTICUNO, 100
 IF DEF(_DEBUG)
@@ -68,7 +68,7 @@ IF DEF(_DEBUG)
 	ld [hli], a
 	ld [hl], a
 
-	; Jolteon gets Thunderbolt.
+	; Gengar gets Thunderbolt.
 	ld hl, wPartyMon3Moves + 3
 	ld a, THUNDERBOLT
 	ld [hl], a

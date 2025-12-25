@@ -12,7 +12,7 @@ RoofPalettes:
 	dw SaffronRoof
 	dw PalletRoof    ; unused map $0B
 	dw PalletRoof    ; ROUTE_1
-	dw ViridianRoof  ; ROUTE_2
+	dw PewterRoof    ; ROUTE_2
 	dw PewterRoof    ; ROUTE_3
 	dw PewterRoof    ; ROUTE_4
 	dw SaffronRoof   ; ROUTE_5
@@ -32,7 +32,7 @@ RoofPalettes:
 	dw FuchsiaRoof   ; ROUTE_19
 	dw CinnabarRoof  ; ROUTE_20
 	dw CinnabarRoof  ; ROUTE_21
-	dw IndigoRoof    ; ROUTE_22
+	dw PewterRoof    ; ROUTE_22
 	dw IndigoRoof    ; ROUTE_23
 	dw CeruleanRoof  ; ROUTE_24
 	dw CeruleanRoof  ; ROUTE_25
