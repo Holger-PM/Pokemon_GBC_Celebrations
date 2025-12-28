@@ -152,6 +152,7 @@ INCLUDE "text/ViridianGym.asm"
 INCLUDE "text/Museum1F.asm"
 INCLUDE "text/Museum2F.asm"
 INCLUDE "text/PewterGym.asm"
+INCLUDE "text/Route22OldRodHouse.asm" ; Holger - new location
 
 
 SECTION "Text 7", ROMX

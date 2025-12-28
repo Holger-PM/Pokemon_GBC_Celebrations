@@ -1233,3 +1233,8 @@ INCLUDE "data/maps/headers/AgathasRoom.asm"
 INCLUDE "scripts/AgathasRoom.asm"
 INCLUDE "data/maps/objects/AgathasRoom.asm"
 AgathasRoom_Blocks: INCBIN "maps/AgathasRoom.blk"
+
+INCLUDE "data/maps/headers/Route22OldRodHouse.asm" ; Holger - new location
+INCLUDE "scripts/Route22OldRodHouse.asm"
+INCLUDE "data/maps/objects/Route22OldRodHouse.asm"
+Route22OldRodHouse_Blocks: INCBIN "maps/Route22OldRodHouse.blk"
