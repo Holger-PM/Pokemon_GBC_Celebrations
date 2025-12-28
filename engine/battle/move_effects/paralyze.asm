@@ -33,8 +33,8 @@ ParalyzeEffect_:
 	jr nz, .didntAffect
 	set PAR, [hl]
 	callfar QuarterSpeedDueToParalysis
-	ld c, 30
-	rst _DelayFrames
+	;ld c, 30
+	;rst _DelayFrames   ; marcelnote - removed pause before attack animation
 	callfar PlayCurrentMoveAnimation
 	jpfar PrintMayNotAttackText
 .didntAffect
