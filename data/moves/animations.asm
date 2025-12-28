@@ -184,7 +184,7 @@ AttackAnimationPointers:
 	dw ShrinkingSquareBlackAnim
 	dw UnusedAnim
 	dw UnusedAnim
-	dw ParalyzeAnim
+	dw BurnAnim ; marcelnote - new animation for BURN
 	dw ParalyzeAnim
 	dw PoisonAnim
 	dw PoisonAnim
@@ -1233,6 +1233,11 @@ UnusedAnim:
 ParalyzeAnim:
 	battle_anim BIND, SUBANIM_0_STATUS_PARALYZED, 0, 4
 	battle_anim BIND, SUBANIM_0_STATUS_PARALYZED, 0, 4
+	db -1 ; end
+
+BurnAnim:
+	battle_anim EMBER, SUBANIM_1_STATUS_BURNED, 1, 6
+	battle_anim EMBER, SUBANIM_1_STATUS_BURNED, 1, 6
 	db -1 ; end
 
 PoisonAnim:

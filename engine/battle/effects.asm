@@ -309,6 +309,10 @@ FreezeBurnParalyzeEffect:
 	rst _PrintText
 	ret
 
+PrintBurnedText:    ; marcelnote - new for BURN_EFFECT
+	ld hl, BurnedText
+	jp PrintText
+
 BurnedText:
 	text_far _BurnedText
 	text_end
