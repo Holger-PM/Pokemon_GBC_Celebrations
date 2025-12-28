@@ -699,7 +699,7 @@ PidgeyEvosMoves:
 	db EVOLVE_LEVEL, 18, PIDGEOTTO
 	db 0
 ; Learnset
-	db 5, SAND_ATTACK
+	db 5, GUST
 	db 12, QUICK_ATTACK
 	db 19, WING_ATTACK
 	db 21, WHIRLWIND
@@ -1051,9 +1051,9 @@ FarfetchdEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 7, LEER
 	db 9, SHARPEN
-	db 13, FURY_ATTACK
+	db 12, RAZOR_WIND
+	db 15, FURY_ATTACK
 	db 18, WING_ATTACK
 	db 23, SLASH
 	db 28, SWORDS_DANCE
@@ -1061,19 +1061,22 @@ FarfetchdEvosMoves:
 	db 39, AGILITY
 	db 0
 
-VenonatEvosMoves:
+VenonatEvosMoves: ; Journey Tweaks
 ; Evolutions
-	db EVOLVE_LEVEL, 31, VENOMOTH
+	db EVOLVE_LEVEL, 28, VENOMOTH
 	db 0
 ; Learnset
-	db 11, SUPERSONIC
-	db 13, LEECH_LIFE
-	db 17, CONFUSION
-	db 20, POISONPOWDER
-	db 29, STUN_SPORE
-	db 33, PSYBEAM
-	db 36, SLEEP_POWDER
-	db 41, PSYCHIC_M
+	db 7, SUPERSONIC
+	db 9, POISON_STING
+	db 12, LEECH_LIFE
+	db 15, POISONPOWDER
+	db 18, ACID
+	db 20, CONFUSION
+	db 23, STUN_SPORE
+	db 28, SLEEP_POWDER
+	db 30, SLUDGE
+	db 34, PSYBEAM
+	db 40, PSYCHIC_M
 	db 0
 
 DragoniteEvosMoves:
@@ -1734,16 +1737,17 @@ VenomothEvosMoves:
 ; Evolutions
 	db 0
 ; Learnset
-	db 11, SUPERSONIC
-	db 13, LEECH_LIFE
-	db 17, CONFUSION
-	db 20, POISONPOWDER
-	db 25, ACID
-	db 29, STUN_SPORE
-	db 33, PSYBEAM
-	db 36, SLEEP_POWDER
-	db 41, PSYCHIC_M
-	db 46, SLUDGE
+	db 10, SUPERSONIC
+	db 12, POISON_STING
+	db 15, LEECH_LIFE
+	db 18, POISONPOWDER
+	db 21, ACID
+	db 23, CONFUSION
+	db 26, STUN_SPORE
+	db 30, SLEEP_POWDER
+	db 32, SLUDGE
+	db 36, PSYBEAM
+	db 48, PSYCHIC_M
 	db 0
 
 DewgongEvosMoves:
