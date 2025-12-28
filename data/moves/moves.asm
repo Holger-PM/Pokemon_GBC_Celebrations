@@ -12,7 +12,7 @@ Moves:
 ; Characteristics of each move.
 	table_width MOVE_LENGTH, Moves
 	move POUND,        NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
-	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,      95, 25
+	move KARATE_CHOP,  NO_ADDITIONAL_EFFECT,        50, FIGHTING,      95, 25 ; high crit ratio
 	move DOUBLESLAP,   TWO_TO_FIVE_ATTACKS_EFFECT,  20, NORMAL,       100, 35
 	move COMET_PUNCH,  TWO_TO_FIVE_ATTACKS_EFFECT,  25, NORMAL,       100, 25
 	move MEGA_PUNCH,   NO_ADDITIONAL_EFFECT,        80, NORMAL,        85, 20
@@ -23,7 +23,7 @@ Moves:
 	move SCRATCH,      NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 35
 	move VICEGRIP,     NO_ADDITIONAL_EFFECT,        55, BUG,          100, 30
 	move GUILLOTINE,   OHKO_EFFECT,                  1, NORMAL,        30,  5
-	move RAZOR_WIND,   HYPER_BEAM_EFFECT,           80, NORMAL,       100, 10
+	move RAZOR_WIND,   CHARGE_EFFECT,               80, NORMAL,        75, 10
 	move SWORDS_DANCE, ATTACK_UP2_EFFECT,            0, BIRD,         100, 30
 	move CUT,          NO_ADDITIONAL_EFFECT,        55, BUG,          100, 30
 	move GUST,         NO_ADDITIONAL_EFFECT,        40, FLYING,       100, 35
@@ -85,7 +85,7 @@ Moves:
 	move MEGA_DRAIN,   DRAIN_HP_EFFECT,             65, GRASS,        100, 20
 	move LEECH_SEED,   LEECH_SEED_EFFECT,            0, GRASS,         90, 10
 	move GROWTH,       SPECIAL_UP1_EFFECT,           0, BIRD,         100, 40
-	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,        55, GRASS,         95, 25
+	move RAZOR_LEAF,   NO_ADDITIONAL_EFFECT,        55, GRASS,         95, 25 ; high crit ratio
 	move SOLARBEAM,    CHARGE_EFFECT,              180, GRASS,        100, 10
 	move POISONPOWDER, POISON_EFFECT,                0, POISON,        90, 35
 	move STUN_SPORE,   PARALYZE_EFFECT,              0, GRASS,         75, 30
@@ -108,7 +108,7 @@ Moves:
 	move HYPNOSIS,     SLEEP_EFFECT,                 0, PSYCHIC_TYPE,  60, 20
 	move MEDITATE,     ATTACK_UP1_EFFECT,            0, BIRD,   	  100, 40
 	move AGILITY,      SPEED_UP2_EFFECT,             0, BIRD,         100, 30
-	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 30
+	move QUICK_ATTACK, NO_ADDITIONAL_EFFECT,        40, NORMAL,       100, 30 ; priority move
 	move RAGE,         RAGE_EFFECT,                 60, NORMAL,       100, 20
 	move TELEPORT,     SWITCH_AND_TELEPORT_EFFECT,   0, PSYCHIC_TYPE, 100, 20
 	move NIGHT_SHADE,  NO_ADDITIONAL_EFFECT,        60, GHOST,        100, 15
@@ -173,7 +173,7 @@ Moves:
 	move CONVERSION,   CONVERSION_EFFECT,            0, BIRD,         100, 30
 	move TRI_ATTACK,   BURN_SIDE_EFFECT2,            85, NORMAL,       100, 15
 	move SUPER_FANG,   SUPER_FANG_EFFECT,            1, NORMAL,        90, 10
-	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20
+	move SLASH,        NO_ADDITIONAL_EFFECT,        70, NORMAL,       100, 20 ; high critical hit ratio
 	move SUBSTITUTE,   SUBSTITUTE_EFFECT,            0, BIRD,         100, 10
 	move STRUGGLE,     RECOIL_EFFECT,               50, BIRD,         100, 10
 	assert_table_length NUM_ATTACKS
