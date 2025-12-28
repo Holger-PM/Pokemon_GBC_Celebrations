@@ -4,9 +4,9 @@ ViridianForestWildMons:
 	db  4, WEEDLE
 	db  7, PIDGEY
 	db  7, KAKUNA
-	db  5, ODDISH
+	db  5, VENONAT
 	db  6, METAPOD
-	db  6, ODDISH
+	db  6, VENONAT
     db  7, PIKACHU
 	db 10, PIDGEOTTO
 	db  6, EXEGGCUTE

@@ -1,15 +1,15 @@
 Route6WildMons:
 	def_grass_wildmons 15 ; encounter rate
-	db 15, PIDGEY
+	db 15, PSYDUCK
+	db 14, ODDISH
 	db 14, RATTATA
-	db 14, ABRA
 	db 16, PIDGEY
 	db 16, LICKITUNG
-	db 15, PSYDUCK
-	db 17, PIDGEOTTO
-	db 16, MAGNEMITE
-	db 17, MAGNEMITE
-	db 19, MAGNEMITE
+	db 15, POLIWAG
+	db 17, POLIWAG
+	db 16, KRABBY
+	db 20, RATICATE
+	db 19, SQUIRTLE
 	end_grass_wildmons
 
 	def_water_wildmons 3 ; encounter rate

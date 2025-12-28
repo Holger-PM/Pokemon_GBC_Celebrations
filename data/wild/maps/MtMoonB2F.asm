@@ -5,7 +5,7 @@ MtMoonB2FWildMons:
 	db 13, PARAS
 	db 11, SANDSHREW
 	db 11, ZUBAT
-	db 12, ZUBAT
+	db 12, GEODUDE
 	db 13, ZUBAT
 	db  9, CLEFAIRY
 	db 16, ONIX

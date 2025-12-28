@@ -4,10 +4,10 @@ Route5WildMons:
 	db 14, RATTATA
 	db 13, ABRA
 	db 18, FARFETCHD
-	db 16, RATTATA
+	db 16, PIDGEOTTO
 	db 17, PIDGEY
-	db 17, PIDGEOTTO
-	db 13, JIGGLYPUFF
+	db 15, GROWLITHE
+	db 14, VULPIX
 	db 15, JIGGLYPUFF
 	db 17, CHANSEY
 	end_grass_wildmons

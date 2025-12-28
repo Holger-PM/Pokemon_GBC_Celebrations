@@ -4,8 +4,8 @@ Route22WildMons:
 	db  4, SPEAROW
 	db  3, NIDORAN_F
 	db  3, EKANS
-	db  5, EKANS
- db  5, MANKEY
+	db  4, EKANS
+	db  5, MANKEY
 	db  4, NIDORAN_F
 	db  5, RATTATA
 	db  8, SPEAROW

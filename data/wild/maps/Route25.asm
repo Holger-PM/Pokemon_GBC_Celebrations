@@ -7,9 +7,9 @@ Route25WildMons:
 	db 14, BELLSPROUT
 	db 15, PIDGEY
 	db 13, VENONAT
-	db 16, VENONAT
-	db 18, PIDGEOTTO
-    db 15, EEVEE
+	db 16, PSYDUCK
+	db 19, PIDGEOTTO
+    db 16, EEVEE
 	end_grass_wildmons
 
 	def_water_wildmons 10 ; encounter rate
